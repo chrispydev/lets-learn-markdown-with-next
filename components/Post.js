@@ -12,7 +12,7 @@ export default function Post({ post }) {
       <p>{post.frontmatter.excerpt}</p>
 
       <Link href={`/blog/${post.slug}`}>
-        <a className='btn'>Read More</a>
+        <a className='btn'>Read More.</a>
       </Link>
     </div>
   );
